@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root {
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
+}
+*{
+  color: var(--color-white);
+}
+
+body {
+  max-width: 100vw;
+  background-color: var(--color-darkblue-alpha);
+}
+
+fieldset{
+  min-width: 400px;
+  max-width: 800px;
+  border: 2px solid red;
+  background-color: var(--color-darkblue);
+}
+
+select{
+  color: black;
+}
