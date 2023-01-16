@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        
+        <fieldset> 
+            <Legend>Sexo</Legend>
+            <!-- COLOCAR O MESMO NOME NO TIPO RADIO CASO EU QUERIA SELECIONAR APENAS 1 -->
+            <input type="radio" name="sexo" id="isxmas"> <label for="isxmas">Masculino</label>
+            <br>
+            <input type="radio" name="sexo" id="isxfem"> <label for="isxfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Como deixar opçao ja marcada por padrao</legend>
+            <input type="checkbox" name="opt1" id="iopt1">
+            <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="opt2" id="iopt2" checked> 
+            <label for="iopt2">Basquete</label> <br>
+            <input type="checkbox" name="opt3" id="iopt3"> 
+            <label for="iopt3">Natação</label> <br>
+            <input type="checkbox" name="opt4" id="iopt4"> 
+            <label for="iopt4">Tênis</label> <br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut">
+            <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esbas" id="iesbas"> 
+            <label for="iesbas">Basquete</label> <br>
+            <input type="checkbox" name="esnat" id="iesnat"> 
+            <label for="iesnat">Natação</label> <br>
+            <input type="checkbox" name="esten" id="iesten"> 
+            <label for="iesten">Tênis</label> <br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
